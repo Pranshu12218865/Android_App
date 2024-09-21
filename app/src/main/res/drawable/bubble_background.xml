@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base background color -->
+    <item>
+        <color android:color="#E8F5E9" />
+    </item>
+
+    <!-- Bubble 1 -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="200dp" android:height="200dp" />
+            <solid android:color="#FFCDD2" />
+        </shape>
+        <gravity android:gravity="top|start" />
+        <translate android:fromXDelta="10%" android:fromYDelta="10%" />
+    </item>
+
+    <!-- Bubble 2 -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="150dp" android:height="150dp" />
+            <solid android:color="#BBDEFB" />
+        </shape>
+        <gravity android:gravity="top|end" />
+        <translate android:fromXDelta="-20%" android:fromYDelta="15%" />
+    </item>
+
+    <!-- Bubble 3 -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="100dp" android:height="100dp" />
+            <solid android:color="#C8E6C9" />
+        </shape>
+        <gravity android:gravity="bottom|start" />
+        <translate android:fromXDelta="5%" android:fromYDelta="-10%" />
+    </item>
+
+    <!-- Bubble 4 -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="120dp" android:height="120dp" />
+            <solid android:color="#FFECB3" />
+        </shape>
+        <gravity android:gravity="bottom|end" />
+        <translate android:fromXDelta="-15%" android:fromYDelta="-5%" />
+    </item>
+    <item>
+        <color android:color="#E8F5E9" />
+    </item>
+
+    <!-- Bubble 1 -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="200dp" android:height="200dp" />
+            <solid android:color="#FFCDD2" />
+        </shape>
+        <gravity android:gravity="top|start" />
+        <translate android:fromXDelta="10%" android:fromYDelta="10%" />
+    </item>
+
+    <!-- Bubble 2 -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="150dp" android:height="150dp" />
+            <solid android:color="#BBDEFB" />
+        </shape>
+        <gravity android:gravity="top|end" />
+        <translate android:fromXDelta="-200%" android:fromYDelta="150%" />
+    </item>
+
+    <!-- Bubble 3 -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="100dp" android:height="100dp" />
+            <solid android:color="#C8E6C9" />
+        </shape>
+        <gravity android:gravity="bottom|start" />
+        <translate android:fromXDelta="5%" android:fromYDelta="-100%" />
+    </item>
+
+    <!-- Bubble 4 -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="120dp" android:height="120dp" />
+            <solid android:color="#FFECB3" />
+        </shape>
+        <gravity android:gravity="bottom|end" />
+        <translate android:fromXDelta="-2%" android:fromYDelta="-50%" />
+    </item>
+</layer-list>
